@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "fmain";
+  src: url("../font/Barlow-Regular.woff2") format("woff2"),
+    url("../font/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "bb";
+  src: url("../font/Barlow-Bold.woff2") format("woff2"),
+    url("../font/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "l";
+  src: url("../font/SVN-PlayfairDisplayBold.woff2") format("woff2"),
+    url("../font/SVN-PlayfairDisplayBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "lm";
+  src: url("../font/SVN-PlayfairDisplay.woff2") format("woff2"),
+    url("../font/SVN-PlayfairDisplay.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "h";
+  src: url("../fonts/HansonBold.woff2") format("woff2"),
+    url("../fonts/HansonBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}

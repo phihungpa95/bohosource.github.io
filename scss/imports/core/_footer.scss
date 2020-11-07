@@ -1,0 +1,96 @@
+footer.footer-section {
+  @include desktop {
+  }
+  @include tablet {
+  }
+  @include mobile {
+      .left-ft {
+        .form-email {
+          margin-bottom: 15px;
+        }
+      }
+  }
+  @include mobile-xxs {
+  }
+  background-color: #e7e7e7;
+  padding: $pd-4 0;
+  .left-ft {
+    span {
+      @include text(
+        $font-size-3,
+        $font-f,
+        $lh-text,
+        $text-black-cl,
+        $text-transform
+      );
+    }
+    h3 {
+      @include text($fs-4, $font-f, $lh-48, $text-black-cl, $text-transform);
+      font-weight: $fw-bold-1;
+    }
+    .form-email {
+      display: $d-flex;
+      margin-top: 15px;
+      input {
+        height: 100%;
+        border: 0;
+        background-color: $white-cl;
+        padding: 15px;
+        &:focus {
+          outline: none;
+        }
+      }
+      .btn-email {
+        .input-btn {
+          button {
+            width: 80px;
+            height: 45px;
+            min-width: initial;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            background-color: $yellow-brand;
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+  .right-ft {
+    p {
+      @include text(
+        $font-size-3,
+        $font-f,
+        $lh-text,
+        $text-black-cl,
+        $text-transform
+      );
+      margin-bottom: 15px;
+    }
+    .icon-social {
+      display: $d-flex;
+      svg {
+        fill: #8a8d8f;
+        width: 45px;
+        height: 45px;
+        &:first-child {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .col-custom {
+    text-align: $center;
+    p {
+      @include text(
+        $font-size-3,
+        $font-f,
+        $lh-text,
+        $text-black-cl,
+        $text-transform
+      );
+    }
+  }
+}

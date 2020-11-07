@@ -1,0 +1,85 @@
+a {
+    color: $text-cl;
+    text-decoration: none;
+    display: block;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+// strong {
+//     font-family: Roboto Bold;
+// }
+
+.-lv1 {
+    //@include text(100px, b, 100px, $white-cl, none);
+    font-weight: normal;
+    margin: 0;
+    // a {
+    //     @include text(100px, g, 100px, $white-cl, none);
+    // }
+    // @include tablet {
+    // }
+    // @include mobile {
+    // }
+}
+
+.button{
+
+}
+
+.arrow{
+    
+}
+
+.brand-item__right {
+    svg {
+        * {
+            fill: #969696;
+        }
+    }
+}
+
+.table-custom {
+    opacity: 0;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    td {
+        padding: 4px 12px;
+        margin: 0;
+        border: 1px solid #ffffff;
+        text-align: left;
+        color: $white-cl;
+        strong {
+            color: $white-cl;
+        }
+    }
+}
+
+.btn-read__more {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    opacity: 0;
+    display: table;
+    margin-top: 35px;
+    a {
+        @include title($black-map,$font-size-5,$font-weight-3);
+        padding: 9px 22px;
+        @include bg-btn($yellow-brand);
+        min-width: 120px;
+        height: 38px;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+}
